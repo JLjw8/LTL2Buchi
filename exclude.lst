@@ -1,0 +1,4 @@
+_build/*
+.vscode
+gallery_entry.yaml
+*.zip

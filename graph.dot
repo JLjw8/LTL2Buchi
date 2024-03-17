@@ -1,0 +1,17 @@
+digraph G {
+  label=" ";
+  concentrate=true;
+  center=1;
+  orientation=portrait;
+  bgcolor="#FFFFFF";
+  q0 [color="#000000", fontcolor="#000000", shape=circle, ];
+  start_0 [color="#000000", fontcolor="#000000", shape=box, style="invis", ];
+  q1 [color="#000000", fontcolor="#000000", shape=doublecircle, ];
+  
+  
+  edge [color="#000000", fontcolor="#000000", ];
+  q0 -> q1 [label="apple ∧ false", ];
+  start_0 -> q0 [label="", ];
+  q1 -> q1 [label="1", ];
+  
+  }

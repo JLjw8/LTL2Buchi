@@ -1,0 +1,13 @@
+(executable
+ (name main)
+ (libraries ounit2 ltl2ba ltlparsing))
+
+(rule
+ (alias runtest)
+ (action
+  (run ./main.exe)))
+
+(env
+ (dev
+  (flags
+   (:standard -warn-error -A))))

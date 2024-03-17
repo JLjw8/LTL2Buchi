@@ -1,0 +1,5 @@
+(library
+ (name ltl2ba)
+ (public_name Ltl2ba)
+ (modules Ltl Visualizer Buchi Ltl2buchi)
+ (libraries ocamlgraph))
